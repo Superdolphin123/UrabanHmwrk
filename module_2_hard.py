@@ -1,5 +1,5 @@
 import random
-random_number = [i for i in range(3, 21)]
+random_number = [i for i in range(3, 21)] # = list(range(3,21))
 result = ''
 number = random.choice(random_number)
 for i in range(1, number):
